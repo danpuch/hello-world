@@ -1,0 +1,7 @@
+file1 = open('test.txt', 'w')
+print("Nombre del archivo: ", file1.name)
+print("Modo de apertura", file1.mode)
+print("Codificacion: ", file1.encoding)
+print("Esta cerrado?: ", file1.closed)
+file1.close()
+print("Esta cerrado ahora?: ", file1.closed)
