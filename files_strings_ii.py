@@ -2,9 +2,8 @@ capitulos=["Capitulo_1\n","Capitulo_2\n","Capitulo_3\n","Capitulo_4\n","Capitulo
 print(capitulos)
 
 
-file1 = open('test.txt', 'w')
+file1 = open('test.txt', 'a')
 file1.writelines(capitulos)
-
 file1.write("\n\t-Titulo del archivo \n")
 file1.write("We add a new Line in the file!\n")
 file1.write("The second line in the file!\n")
