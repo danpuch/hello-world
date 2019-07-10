@@ -1,14 +1,14 @@
-def checkio(text):
-    if len(text) >10e5 :
+def checkio(x):
+    if len(x) >10e5 :
         return 'sentence is extremely long'
-    text = text.lower()
+    x = x.lower()
     #    l = []
     #    d ={}
-    #    for u in text:
+    #    for u in x:
     #        if u in 'aqwertyuioplkjhgfdszxcvbnm' :
     #            l.append(u)
     #            d[u] =0
-    l = [c for c in text if c.isalpha()]
+    l = [c for c in x if c.isalpha()]
     d = {c: 0 for c in l}
     for i in l :
         d[i] +=1
