@@ -64,3 +64,4 @@ class BicicletaElectrica(Velectricos,Vehiculos):
     pass
 
 miBici=BicicletaElectrica()
+
